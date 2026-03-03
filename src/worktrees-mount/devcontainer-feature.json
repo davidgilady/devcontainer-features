@@ -1,0 +1,13 @@
+{
+  "id": "git-worktrees-mounts",
+  "version": "1.0.0",
+  "name": "Git Worktrees Mounts",
+  "description": "Automatically mounts a folder for git worktrees",
+  "mounts": [
+    {
+      "source": "/home/david/work/worktrees",
+      "target": "/home/david/work/worktrees",
+      "type": "bind"
+    }
+  ]
+}
